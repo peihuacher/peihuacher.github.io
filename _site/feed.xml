@@ -5,8 +5,8 @@
     <description>A blog about my technical works</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 May 2017 10:53:34 +0800</pubDate>
-    <lastBuildDate>Fri, 19 May 2017 10:53:34 +0800</lastBuildDate>
+    <pubDate>Fri, 19 May 2017 15:21:52 +0800</pubDate>
+    <lastBuildDate>Fri, 19 May 2017 15:21:52 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -17,96 +17,6 @@
         <guid isPermaLink="true">http://localhost:4000/running_treelstm_in_dgx1/</guid>
         
         <category>dev</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Use</title>
-        <description>## Cards Jekyll Template - [Demo](http://willianjusten.com.br/cards-jekyll-template) This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff. The Theme features: - Gulp - Stylus (Jeet, Rupture, Kouto Swiss) - Live Search - Offcanvas Menu - SVG icons - Very very small and fast! - Shell Script to create posts - Tags page - Series page - About Me page - Feed RSS - Sitemap.xml - Color Customization - Info Customization ## Basic Setup 1. [Install Jekyll](http://jekyllrb.com) 2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork) 3. Clone the...</description>
-        <pubDate>Mon, 09 May 2016 04:35:48 +0800</pubDate>
-        <link>http://localhost:4000/how-to-use/</link>
-        <guid isPermaLink="true">http://localhost:4000/how-to-use/</guid>
-        
-        <category>misc</category>
-        
-        <category>jekyll</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll</title>
-        <description>You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext. Jekyll also offers powerful support for code snippets: &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File...</description>
-        <pubDate>Mon, 09 May 2016 04:34:26 +0800</pubDate>
-        <link>http://localhost:4000/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll/</guid>
-        
-        <category>jekyll</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Analisando seu código JS com um linter</title>
-        <description>## Introdução Faaaala pessoal, fazia muito tempo que eu não escrevia e confesso que isso já estava me agoniando. Então resolvi voltar a &lt;s&gt;falar besteiras&lt;/s&gt; escrever!! Como não poderia deixar de ser, estou escrevendo ouvindo música. A playlist de hoje é [Brains](https://open.spotify.com/user/spotifybrazilian/playlist/0nUucSaL2BGl2VZlbY5TwR), uma playlist que está sendo montada lá na [CCXP](http://www.ccxp.com.br/), muita música maneira! Bota para tocar e vai lendo =D ## Qualidade de Código Provavelmente você já passou horas escrevendo seu código lindo e aí, do nada, ele parou de funcionar. Então você ficou mais perdido que o John Travolta no Discurso da Dilma. ![John Travolta Meme](https://media.giphy.com/media/FWXpxEbWcOapq/giphy.gif) Você, então,...</description>
-        <pubDate>Sat, 05 Dec 2015 06:43:23 +0800</pubDate>
-        <link>http://localhost:4000/analisando-seu-codigo-js-com-linter/</link>
-        <guid isPermaLink="true">http://localhost:4000/analisando-seu-codigo-js-com-linter/</guid>
-        
-        <category>js</category>
-        
-        <category>linter</category>
-        
-        <category>tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Social Meta Tags</title>
-        <description>## Introdução Estou aqui de novo para mais uma **#dicarapida** sobre um assunto que é bastante importante, mas muita gente esquece ou não faz de forma correta, que são as Meta Tags Sociais. Hoje em dia, as redes sociais são fundamentais para que a gente consiga alcançar um maior número de pessoas. Antes isso ficava mais a cargo das pesquisas orgânicas, ads e outros modelos de divulgação (email marketing, spots de rádio, tv, etc). No meu blog, muito do acesso é dado pelas redes sociais, sendo o facebook o maior propagador, acho que é porque sigo os passos do [Fernando...</description>
-        <pubDate>Tue, 10 Feb 2015 03:33:48 +0800</pubDate>
-        <link>http://localhost:4000/social-meta-tags/</link>
-        <guid isPermaLink="true">http://localhost:4000/social-meta-tags/</guid>
-        
-        <category>social</category>
-        
-        <category>seo</category>
-        
-        <category>tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>#1 - Por que usar SVG?</title>
-        <description>## Meu histórico Muita gente sabe que eu ❤ SVG e que venho tentado evangelizar de todas as formas essa tecnologia em todo lugar que eu passo. Meu primeiro trabalho foi a [Awesome-SVG](https://github.com/willianjusten/awesome-svg), que pode não parecer, mas deu um trabalho do caramba juntar todo conteúdo possível desse assunto, organizar, separar e ainda manter atualizado. Essa semana eu e meu amigo [Lucas Maia](https://github.com/lucasmaiaesilva) lançamos a tradução do [SVG Pocket Guide](http://svgpocketguide.com/) e que inclusive está [open source](https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md) (Viu algum erro? Manda um Pull Request! É difícil fazer tudo sem nenhum errinho xD). Também palestrei no [Front in Bahia 2014](http://www.frontinbahia.com.br/) para substituir...</description>
-        <pubDate>Thu, 08 Jan 2015 16:39:47 +0800</pubDate>
-        <link>http://localhost:4000/por-que-usar-svg/</link>
-        <guid isPermaLink="true">http://localhost:4000/por-que-usar-svg/</guid>
-        
-        <category>svg</category>
-        
-        <category>frontend</category>
-        
-        <category>trend</category>
-        
-        <category>dicarapida</category>
-        
-        
-        <category>O mundo mágico do SVG</category>
-        
-      </item>
-    
-      <item>
-        <title>Dica rápida #1</title>
-        <description>Já que estou participando da campanha do [Fernando Daciuk](http://blog.da2k.com.br/) que é o **#1postperday**, resolvi criar uma outra hashtag, que será a **#dicarapida**. Como o próprio nome diz, serão dicas rápidas, mas que as vezes a gente não faz ou esquece ou ninguém falou por ser &quot;bobo&quot;. A minha ideia também será postar coisas em um nível também iniciante, assim ajuda uma galera nova, que está começando agora. ## Favicons ![Favicons](/assets/img/dica-rapida-1/favicons.png) Pequenos e bastante simples, mas que já ajudam a identificar um site sem necessidade de mais nenhuma informação. Aposto que você sabe todos os sites que estão abertos na imagem...</description>
-        <pubDate>Thu, 08 Jan 2015 05:31:05 +0800</pubDate>
-        <link>http://localhost:4000/dica-rapida-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/dica-rapida-1/</guid>
-        
-        <category>dicarapida</category>
         
         
       </item>

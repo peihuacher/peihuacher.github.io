@@ -62,28 +62,4 @@
             <loc>http://localhost:4000/running_treelstm_in_dgx1/</loc>
         </url>
   
-        <url>
-            <loc>http://localhost:4000/how-to-use/</loc>
-        </url>
-  
-        <url>
-            <loc>http://localhost:4000/welcome-to-jekyll/</loc>
-        </url>
-  
-        <url>
-            <loc>http://localhost:4000/analisando-seu-codigo-js-com-linter/</loc>
-        </url>
-  
-        <url>
-            <loc>http://localhost:4000/social-meta-tags/</loc>
-        </url>
-  
-        <url>
-            <loc>http://localhost:4000/por-que-usar-svg/</loc>
-        </url>
-  
-        <url>
-            <loc>http://localhost:4000/dica-rapida-1/</loc>
-        </url>
-  
 </urlset>

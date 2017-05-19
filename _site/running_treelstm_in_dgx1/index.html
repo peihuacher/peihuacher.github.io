@@ -179,16 +179,7 @@ python -V
 
 <p>Finally run <code class="highlighter-rouge">python main.py --lr 0.01 --wd 0.0001 --optim adagrad --batchsize 25</code>.</p>
 
-<h3 id="implementing-event-classification-using-treelstmpytorch">Implementing event classification using treelstm.pytorch</h3>
-
-<p>To apply the treelstm in my event classification task, I will need to change the some source files. They are:</p>
-<ul>
-  <li>main.py</li>
-  <li>dataset.py</li>
-  <li>trainer.py</li>
-  <li>model.py</li>
-  <li>metrics.py</li>
-</ul>
+<p>Results from the above program is as follows:</p>
 
 <table>
   <thead>
@@ -202,24 +193,36 @@ python -V
   <tbody>
     <tr>
       <td>Loss      </td>
-      <td>0.752087</td>
-      <td>0.694082</td>
-      <td>0.728706</td>
+      <td>0.75</td>
+      <td>0.69</td>
+      <td>0.73</td>
     </tr>
     <tr>
       <td>Pearson    </td>
-      <td>-0.05949</td>
-      <td>-0.03535</td>
-      <td>-0.04968</td>
+      <td>-0.06</td>
+      <td>-0.04</td>
+      <td>-0.05</td>
     </tr>
     <tr>
       <td>MSE        </td>
-      <td>3.047131</td>
-      <td>2.803658</td>
-      <td>2.988156</td>
+      <td>3.05</td>
+      <td>2.80</td>
+      <td>2.99</td>
     </tr>
   </tbody>
 </table>
+
+<h3 id="implementing-event-classification-using-treelstmpytorch">Implementing event classification using treelstm.pytorch</h3>
+
+<p>To apply the treelstm in my event classification task, I will need to change the some source files. They are:</p>
+<ul>
+  <li>main.py</li>
+  <li>dataset.py</li>
+  <li>trainer.py</li>
+  <li>model.py</li>
+  <li>metrics.py</li>
+</ul>
+
 
             </article>
 
