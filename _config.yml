@@ -5,9 +5,9 @@
 # url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 title: Pei Hua Cher - development share
 description: A blog about my technical works
-baseurl: ""
+baseurl: "/_site"
 # url: "http://localhost:4000"
-url: "https://peihuacher.github.io/_site"
+url: "https://peihuacher.github.io"
 
 # User settings
 # username: Lorem Ipsum
