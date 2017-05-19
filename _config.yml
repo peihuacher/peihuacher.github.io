@@ -7,7 +7,7 @@ title: Pei Hua Cher - development share
 description: A blog about my technical works
 baseurl: ""
 # url: "http://localhost:4000"
-url: "https://peihuacher.github.io"
+url: "https://peihuacher.github.io/_site"
 
 # User settings
 # username: Lorem Ipsum
