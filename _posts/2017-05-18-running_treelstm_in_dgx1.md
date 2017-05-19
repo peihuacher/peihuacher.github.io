@@ -84,9 +84,9 @@ Results from the above program is as follows:
 
 | epoch = 15 | Train    | Dev      | Test     |
 |------------|----------|----------|----------|
-| Loss       | 0.752087 | 0.694082 | 0.728706 |
-| Pearson    | -0.05949 | -0.03535 | -0.04968 |
-| MSE        | 3.047131 | 2.803658 | 2.988156 |
+| Loss       | 0.75 | 0.69 | 0.73 |
+| Pearson    | -0.06 | -0.04 | -0.05 |
+| MSE        | 3.05 | 2.80 | 2.99 |
 
 ### Implementing event classification using treelstm.pytorch
 
