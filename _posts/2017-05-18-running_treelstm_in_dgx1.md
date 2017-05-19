@@ -80,6 +80,14 @@ Thereafter, execute `./fetch_and_preprocess.sh` or `sh fetch_and_preprocess.sh`.
 
 Finally run `python main.py --lr 0.01 --wd 0.0001 --optim adagrad --batchsize 25`.
 
+Results from the above program is as follows:
+
+| epoch = 15 | Train    | Dev      | Test     |
+|------------|----------|----------|----------|
+| Loss       | 0.752087 | 0.694082 | 0.728706 |
+| Pearson    | -0.05949 | -0.03535 | -0.04968 |
+| MSE        | 3.047131 | 2.803658 | 2.988156 |
+
 ### Implementing event classification using treelstm.pytorch
 
 To apply the treelstm in my event classification task, I will need to change the some source files. They are:
@@ -89,8 +97,4 @@ To apply the treelstm in my event classification task, I will need to change the
 - model.py
 - metrics.py
 
-| epoch = 15 | Train    | Dev      | Test     |
-|------------|----------|----------|----------|
-| Loss       | 0.752087 | 0.694082 | 0.728706 |
-| Pearson    | -0.05949 | -0.03535 | -0.04968 |
-| MSE        | 3.047131 | 2.803658 | 2.988156 |
+
