@@ -52,7 +52,7 @@ pip2 install tqdm
 ## java 
 export JAVA_HOME=/opt/data/jdk1.8.0_131
 echo $JAVA_HOME
-export PATH=$JAVA_HOME:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
 echo $PATH
 
 ## python
