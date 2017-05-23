@@ -222,12 +222,12 @@ python -V
 </ul>
 
 <h4 id="handling-unicode-characters">Handling unicode characters</h4>
-<p>One thing to note especially when using stanford parser, you will need to convert unicode characters into utf-8 format. If you did not convert the unicode characters, an error message like the one below will be shown.</p>
+<p>When using stanford parser, you will need to convert unicode characters into utf-8 format. If you did not convert the unicode characters, an error message like the one below will be shown.</p>
 
 <p><code class="highlighter-rouge">May 22, 2016 8:12:42 AM edu.stanford.nlp.process.PTBLexer next
 WARNING: Untokenizable: ? (U+FFFD, decimal: 65533)</code></p>
 
-<p>For example if your text description has a smiley, do a command <code class="highlighter-rouge">description.encode('utf-8')</code> to convert the smiley into a valid representation <code class="highlighter-rouge">\xe2\x98\xb9\xef\xb8\x8f</code>.</p>
+<p>A simple fix, for example, if your text description has a smiley, do a command <code class="highlighter-rouge">description.encode('utf-8')</code> to convert the smiley into a valid representation <code class="highlighter-rouge">\xe2\x98\xb9\xef\xb8\x8f</code>.</p>
 
 
             </article>
