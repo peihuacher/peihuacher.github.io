@@ -17,14 +17,14 @@
     <meta name="twitter:title" content="Running treelstm in DGX1">
     <meta name="twitter:description" content="Share and document the setting up of the environment to run treelstm on the CPU or GPU in NVIDIA-DGX1.">
     
-    <meta property="twitter:image:src" content="https://peihuacher.github.io/assets/img/">
+    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="https://peihuacher.github.io/running_treelstm_in_dgx1/">
+    <meta property="og:url" content="http://localhost:4000/running_treelstm_in_dgx1/">
     <meta property="og:title" content="Running treelstm in DGX1">
     
-    <meta property="og:image" content="https://peihuacher.github.io/assets/img/">
+    <meta property="og:image" content="http://localhost:4000/assets/img/">
     
     <meta property="og:description" content="Share and document the setting up of the environment to run treelstm on the CPU or GPU in NVIDIA-DGX1.">
     <meta property="og:site_name" content="Pei Hua Cher - development share">
@@ -32,7 +32,7 @@
     <!-- Social: Google+ / Schema.org  -->
     <meta itemprop="name" content="Running treelstm in DGX1"/>
     <meta itemprop="description" content="Share and document the setting up of the environment to run treelstm on the CPU or GPU in NVIDIA-DGX1.">
-    <meta itemprop="image" content="https://peihuacher.github.io/assets/img/blog-image.png"/>
+    <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
@@ -57,8 +57,8 @@
     <meta name="theme-color" content="#637a91">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://peihuacher.github.io/running_treelstm_in_dgx1/">
-    <link rel="alternate" type="application/rss+xml" title="Pei Hua Cher - development share" href="https://peihuacher.github.io/feed.xml" />
+    <link rel="canonical" href="http://localhost:4000/running_treelstm_in_dgx1/">
+    <link rel="alternate" type="application/rss+xml" title="Pei Hua Cher - development share" href="http://localhost:4000/feed.xml" />
 </head>
 
     <body>
@@ -87,13 +87,13 @@
   <h2>MENU</h2>
   <ul>
     
-      <li><a href="https://peihuacher.github.io/">Home</a></li>
+      <li><a href="http://localhost:4000/">Home</a></li>
     
-      <li><a href="https://peihuacher.github.io/tags">Tags</a></li>
+      <li><a href="http://localhost:4000/tags">Tags</a></li>
     
-      <li><a href="https://peihuacher.github.io/about">About Me</a></li>
+      <li><a href="http://localhost:4000/about">About Me</a></li>
     
-    <li><a class="feed" href="https://peihuacher.github.io/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://localhost:4000/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -221,20 +221,28 @@ python -V
   <li>metrics.py</li>
 </ul>
 
+<h4 id="handling-unicode-characters">Handling unicode characters</h4>
+<p>One thing to note especially when using stanford parser, you will need to convert unicode characters into utf-8 format. If you did not convert the unicode characters, an error message like the one below will be shown.</p>
+
+<p><code class="highlighter-rouge">May 22, 2016 8:12:42 AM edu.stanford.nlp.process.PTBLexer next
+WARNING: Untokenizable: ? (U+FFFD, decimal: 65533)</code></p>
+
+<p>For example if your text description has a smiley, do a command <code class="highlighter-rouge">description.encode('utf-8')</code> to convert the smiley into a valid representation <code class="highlighter-rouge">\xe2\x98\xb9\xef\xb8\x8f</code>.</p>
+
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Share and document the setting up of the environment to run treelstm on the CPU or GPU in NVIDIA-DGX1.&quot;%20https://peihuacher.github.io/running_treelstm_in_dgx1/%20via%20&#64;peihuacher&hashtags=dev,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Share and document the setting up of the environment to run treelstm on the CPU or GPU in NVIDIA-DGX1.&quot;%20http://localhost:4000/running_treelstm_in_dgx1/%20via%20&#64;peihuacher&hashtags=dev,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=https://peihuacher.github.io/running_treelstm_in_dgx1/"
+    <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/running_treelstm_in_dgx1/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=https://peihuacher.github.io/running_treelstm_in_dgx1/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/running_treelstm_in_dgx1/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
