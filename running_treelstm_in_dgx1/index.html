@@ -227,7 +227,7 @@ python -V
 <p><code class="highlighter-rouge">May 22, 2016 8:12:42 AM edu.stanford.nlp.process.PTBLexer next
 WARNING: Untokenizable: ? (U+FFFD, decimal: 65533)</code></p>
 
-<p>A simple fix, for example, if your text description has a smiley, do a command <code class="highlighter-rouge">description.encode('utf-8')</code> to convert the smiley into a valid representation <code class="highlighter-rouge">\xe2\x98\xb9\xef\xb8\x8f</code>.</p>
+<p>A simple fix, for example, if your text description has a smiley, do a command <code class="highlighter-rouge">description.encode('unicode_escape')</code> to convert the smiley into a valid representation <code class="highlighter-rouge">\\u263A</code>.</p>
 
 
             </article>
